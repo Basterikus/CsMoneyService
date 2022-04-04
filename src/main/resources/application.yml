@@ -1,0 +1,11 @@
+server:
+  port: 8010
+
+spring:
+  cache:
+    caffeine:
+      spec: expireAfterAccess=10m
+
+parse:
+  minPrice: 2000
+  maxPrice: 10000
