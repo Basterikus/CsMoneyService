@@ -2,13 +2,19 @@ package com.basterikus.CsMoneyService.model;
 
 public enum Type {
     KNIFE,
-    AK,
+    RIFLE,
+    SNIPER,
+    PISTOL,
+    SMG,
     GLOVES;
 
     public static Type getType(String type) {
         return switch (type) {
             case "2" -> Type.KNIFE;
-            case "1" -> Type.AK;
+            case "3" -> Type.RIFLE;
+            case "4" -> Type.SNIPER;
+            case "5" -> Type.PISTOL;
+            case "6" -> Type.SMG;
             case "13" -> Type.GLOVES;
             default -> null;
         };
