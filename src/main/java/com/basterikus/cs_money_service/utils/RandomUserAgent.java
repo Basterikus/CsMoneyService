@@ -1,4 +1,4 @@
-package com.basterikus.CsMoneyService.utils;
+package com.basterikus.cs_money_service.utils;
 
 import java.util.HashMap;
 import java.util.Map;

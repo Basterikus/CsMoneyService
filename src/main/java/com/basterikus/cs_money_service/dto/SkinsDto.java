@@ -1,6 +1,6 @@
-package com.basterikus.CsMoneyService.dto;
+package com.basterikus.cs_money_service.dto;
 
-import com.basterikus.CsMoneyService.model.Skin;
+import com.basterikus.cs_money_service.model.Skin;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

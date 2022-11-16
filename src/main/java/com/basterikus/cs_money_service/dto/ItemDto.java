@@ -1,8 +1,13 @@
-package com.basterikus.CsMoneyService.dto;
+package com.basterikus.cs_money_service.dto;
 
-import lombok.Value;
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.experimental.FieldDefaults;
 
-@Value
+@Data
+@AllArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class ItemDto {
     String name;
     long id;

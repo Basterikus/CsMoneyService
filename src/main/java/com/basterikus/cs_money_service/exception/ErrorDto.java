@@ -1,9 +1,9 @@
-package com.basterikus.CsMoneyService.exception;
+package com.basterikus.cs_money_service.exception;
 
 import lombok.AllArgsConstructor;
-import lombok.Value;
+import lombok.Data;
 
-@Value
+@Data
 @AllArgsConstructor
 public class ErrorDto {
     private String error;

@@ -7,5 +7,4 @@ spring:
       spec: expireAfterAccess=10m
 
 parse:
-  minPrice: 2000
-  maxPrice: 10000
+  url: https://inventories.cs.money/5.0/load_bots_inventory/730?buyBonus=40&isStore=true&limit=60

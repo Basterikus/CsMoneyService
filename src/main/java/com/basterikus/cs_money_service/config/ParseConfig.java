@@ -1,4 +1,4 @@
-package com.basterikus.CsMoneyService.config;
+package com.basterikus.cs_money_service.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -6,6 +6,5 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @Data
 @ConfigurationProperties(prefix = "parse")
 public class ParseConfig {
-    private int minPrice;
-    private int maxPrice;
+    private String url;
 }

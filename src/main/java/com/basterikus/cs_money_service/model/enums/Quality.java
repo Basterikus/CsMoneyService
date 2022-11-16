@@ -1,4 +1,4 @@
-package com.basterikus.CsMoneyService.model;
+package com.basterikus.cs_money_service.model.enums;
 
 public enum Quality {
     MINIMAL_WEAR,

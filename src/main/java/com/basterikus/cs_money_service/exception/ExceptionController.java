@@ -1,4 +1,4 @@
-package com.basterikus.CsMoneyService.exception;
+package com.basterikus.cs_money_service.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,8 +14,8 @@ public class ExceptionController extends ResponseEntityExceptionHandler {
         return new ResponseEntity<>(new ErrorDto(e.getLocalizedMessage()), HttpStatus.BAD_REQUEST);
     }
 
-    @ExceptionHandler({LimitRequestException.class})
+    @ExceptionHandler({RequestException.class})
     public ResponseEntity<ErrorDto> handleExceptionFromCsMoney(Exception e) {
-        return new ResponseEntity<>(new ErrorDto(e.getLocalizedMessage()), HttpStatus.TOO_MANY_REQUESTS);
+        return new ResponseEntity<>(new ErrorDto(e.getLocalizedMessage()), HttpStatus.BAD_REQUEST);
     }
 }
