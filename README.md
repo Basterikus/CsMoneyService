@@ -13,6 +13,7 @@
 
 ## API
 GET api/v1/skins - парсинг по скидке
+
 params:
 - overprice
 - minPrice
@@ -20,6 +21,7 @@ params:
 - type (not required)
 
 GET api/v1/skins/float - парсинг по поношенности
+
 params:
 - float
 - minPrice
